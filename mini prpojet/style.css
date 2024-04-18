@@ -1,0 +1,388 @@
+body {
+  background-color: #fbf7ee;
+}
+
+.cmain-label {
+  padding: 10px;
+}
+
+
+.cmain-envoyer {
+  background-color: #0B48A8;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bolder; 
+  color: white;
+  padding: 3px;
+  margin-top: 10px;
+
+  
+}
+.cmain-text {
+    color: #0B48A8;
+    font-weight: bolder;
+}
+.cmain-img {
+    margin-top: 10px;
+  }
+  .cmain-img3 {
+    margin-top: 10px;
+    margin-right: 260px;
+  }
+  .cmain-paragraphe {
+    font-size: 110%;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: rgb(63, 30, 207);
+  }
+  
+  .cmain-contactus {
+    padding-top: 80px;
+  }
+
+.cmain {
+  border-width: 1px;
+  border-color: black;
+  border-style:outset;
+  border-left: none;
+  border-top: none;
+  margin: 0 auto;
+}
+.cmain-contactus {
+    background-color: rgb(255, 255, 255);
+    padding: 20px ; 
+   
+}
+.cmain-form {
+    background-color: #FFF3D9;
+  }
+
+/* start second-half */
+.second-half-p h1 {
+  color: #13366d;
+}
+.second-half-p p {
+  color: #a2a2a2;
+}
+.second-half .Card {
+  border: 1px solid #c2c2c2;
+  background-color: #fff3d9;
+}
+.Card span {
+  color: gray;
+}
+
+.Startup {
+  border-radius: 5px;
+  color: white;
+}
+.cmain-titre{
+    text-align: center;
+}
+
+
+
+.Card ul {
+  list-style-type: none;
+}
+
+.tcard {
+  background-color: #13366d;
+  border-radius: 11px;
+  text-align: center;
+  font-size: 11px;
+  margin-left: 11px;
+}
+
+/* end second-half */
+.second-half-p h1{
+    color: #13366D;
+    }
+    .second-half-p p{
+        color: #A2A2A2;
+    }
+
+    .second-half .Card{
+    border: 1px solid #C2C2C2;
+    margin: 1%;
+    background-color: #FFF3D9;
+    }
+    .Card span{
+    /* color: gray; */
+    color: #525252;
+    }
+     .Startup{
+     border-radius:5px;
+
+     color:white;
+    }
+    .Try-for-free{   
+      width:91%;
+        margin-top:5%;
+        margin-left:5%;
+        display:block;
+        color:#13366D;
+        border-radius: 6px;
+    }
+    .Try-for-free:hover{
+        color: white;
+        background-color:#FFF3D9;
+        border: 2px solid #13366D; 
+    }
+    .Card ul{
+        list-style-type: none;
+        margin-top: 5%; 
+        padding-left: 17px; 
+        }
+    .Card li{
+        margin-top: 5%;
+        }
+    .tcard{
+        background-color: #13366D;
+        padding: 2%;
+        border-radius: 11px;
+        text-align: center;
+        font-size: 11px;
+        margin-left: 24px;
+    }
+
+    
+    /* end second-half */
+
+/* start first half */
+.headers {
+  color: #13366d;
+  text-transform: capitalize;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+/* formulaire */
+.first-half input[type="email"] {
+  min-width: 70%;
+}
+
+.fh-p {
+  color: #a2a2a2;
+}
+
+.btn {
+  background-color: darkred;
+  color: white;
+  font-weight: 700;
+  padding: 5px;
+  border: unset;
+  border-bottom: 5px solid darkred;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.first-half .box1 ul {
+  color: #a2a2a2;
+  list-style-image: url("Checkmark.png");
+
+}
+
+
+
+.first-half .card ul {
+  list-style-type: none;
+  background-color: white;
+  border: solid #a2a2a2 2px;
+  padding-left: 0;
+
+}
+
+.first-half b {
+  color: black;
+}
+
+/* end first half */
+/*start header */
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header-all{
+    padding-left: 75px;
+    padding-right: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-button{
+   padding:14px;
+}
+.header-ul{
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+    
+    
+ 
+   
+}
+.hint ul {
+  list-style-type: none; 
+}
+
+
+.header-link{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+.header-b2{
+    padding: 6px;
+    background-color: rgb(18, 18, 209);
+    width: 96px;
+    color: cornsilk;
+    border: none;
+}
+.header-ul li a{
+
+ text-decoration: none;
+    color: black;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;    
+}
+.header-ul li a:hover{
+    background-color: #13366D;
+    text-decoration: none;
+    color: white;
+    display: block;
+
+}
+
+.header-p{
+color: rgb(78, 78, 235);
+font-size: 19px;
+
+}
+/* end header */
+
+/* start responsive first-half */
+
+/* responsive first-half */
+/* end first half */
+.color-Ax{
+  color: #545454 ;
+}
+.color2-Ax{
+  color: #545454;
+}
+
+/* Add your CSS styles here */
+
+/* Responsive CSS for first-half */
+/* Media Queries pour rendre le design réactif */
+
+/* Ajoutez ces règles de Media Queries à la fin de votre fichier CSS */
+
+/* Media Queries pour les écrans plus petits */
+@media screen and (max-width: 768px) {
+  .header-all {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .header-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .header-link {
+    margin-bottom: 10px;
+  }
+}
+
+  .header-ul {
+    display: flex;
+    
+  }
+
+  .header-b2 {
+    padding: 8px;
+  }
+
+  .header-p {
+    margin-bottom: 10px;
+  }
+
+  /* Styles pour la deuxième moitié réactive */
+  .second-half-p h1 {
+    color: #13366d;
+  }
+  
+  .second-half-p p {
+    color: #a2a2a2;
+  }
+  
+  .second-half .Card {
+    border: 1px solid #c2c2c2;
+    background-color: #fff3d9;
+    margin-bottom: 20px;
+  }
+  
+  .Card span {
+    color: gray;
+  }
+  
+  .Startup {
+    border-radius: 5px;
+    color: white;
+    width:200px;
+    
+  }
+  
+  .Try-for-free {
+    color: white;
+    border-radius: 6px;
+  }
+  
+  .Try-for-free:hover {
+    color: white;
+    background-color: #fff3d9;
+    border: 2px solid darkred;
+  }
+  
+  .Card ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .tcard {
+    background-color: #13366d;
+    border-radius: 11px;
+    text-align: center;
+    font-size: 11px;
+    margin-left: 24px;
+    padding: 10px;
+    color: white;
+  }
+  .Card.Card4 {
+    font-size: 11px;
+    padding: 10px;
+  }
+
